@@ -7,7 +7,7 @@ using Core.Utilities.Security.JWT;
 using Entities.DTOs;
 
 namespace Business.Abstract
-{//test
+{//test1
 	public interface IAuthService
 	{
 		IDataResult<User> Register(UserForRegisterDto userForRegisterDto, string password);
